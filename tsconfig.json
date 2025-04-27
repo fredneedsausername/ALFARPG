@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
     "incremental": true,                                 /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
-    "target": "es2022",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "lib": [                                             /* Specify a set of bundled library declaration files that describe the target runtime environment. */
-      "ES2023",
+      "ESNext",
       "DOM"
     ],                                        
     "allowUmdGlobalAccess": true,
     "module": "es6",                                     /* Specify what module code is generated. */
-    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
-    "baseUrl": "./src",                                  /* Specify the base directory to resolve non-relative module names. */
     "typeRoots": ["./typings"],                          /* Specify multiple folders that act like './node_modules/@types'. */
-    "outDir": "./build/js",                              /* Specify an output folder for all emitted files. */
     "noEmitOnError": true,                               /* Disable emitting files if any type checking errors are reported. */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
