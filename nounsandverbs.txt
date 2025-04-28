@@ -1,4 +1,4 @@
-Mettere favicon
+Put favicon in project root
 
 player moves
 player equips non-comsumables
