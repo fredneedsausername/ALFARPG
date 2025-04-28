@@ -1,0 +1,17 @@
+{
+    "devDependencies": {
+        "license-checker-rseidelsohn": "^4.4.2",
+        "typescript": "^5.8.3",
+        "vite": "^6.3.3"
+    },
+    "dependencies": {
+        "phaser": "^3.88.2"
+    },
+    "scripts": {
+        "generate-licenses": "npx license-checker-rseidelsohn --customPath ./license-template.json > licenses.txt",
+        "build": "npm run generate-licenses && npx vite build",
+        "dev": "npx vite",
+        "preview": "npx vite preview"
+    }
+
+}

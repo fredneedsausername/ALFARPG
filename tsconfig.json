@@ -7,8 +7,8 @@
       "DOM"
     ],                                        
     "allowUmdGlobalAccess": true,
-    "module": "es6",                                     /* Specify what module code is generated. */
-    "typeRoots": ["./typings"],                          /* Specify multiple folders that act like './node_modules/@types'. */
+    "module": "ESNext",                                  /* Specify what module code is generated. */
+    "types": ["vite/client"],                          /* Specify multiple folders that act like './node_modules/@types'. */
     "noEmitOnError": true,                               /* Disable emitting files if any type checking errors are reported. */
     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
