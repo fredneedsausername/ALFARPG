@@ -1,2 +1,3 @@
 - Put favicon in project root
-- Create command on VPS to pull and build new source
+- Create MVP
+- Create UML diagram of the application

@@ -1,0 +1,93 @@
+@startuml ALFARPG
+
+' Domain Layer
+package "Domain" {
+    abstract class Entity {
+        +id: number
+        +createdAt: Date
+        +updatedAt: Date
+    }
+
+    class User {
+        +name: string
+        +email: string
+        +status: Status
+    }
+
+    class Role {
+        +name: string
+        +permissions: string[]
+    }
+
+    enum Status {
+        Active
+        Inactive
+        Suspended
+    }
+
+    Entity <|-- User
+    User *-- Role : has
+    User --> Status : status
+}
+
+' Application Layer
+package "Application" {
+    interface Serializer {
+        +serialize(): string
+    }
+
+    class UserService {
+        +register(userData: any): User
+        +login(email: string, password: string): string
+        +logout(): void
+    }
+
+    class AuthService {
+        +issueToken(user: User): string
+        +validateToken(token: string): boolean
+    }
+
+    UserService ..> User
+    AuthService ..> User
+    UserService ..|> Serializer
+}
+
+' Infrastructure Layer
+package "Infrastructure" {
+    class UserRepository {
+        +save(user: User): void
+        +findByEmail(email: string): User
+    }
+
+    class Database {
+        +query(sql: string): any
+    }
+
+    UserRepository --> Database
+    UserRepository --> User
+}
+
+' API Layer
+package "API" {
+    class UserController <<Controller>> {
+        +register(req: Request): Response
+        +login(req: Request): Response
+    }
+
+    class Request {
+        +body: any
+        +headers: any
+    }
+
+    class Response {
+        +status(code: number): Response
+        +json(data: any): Response
+    }
+
+    UserController --> UserService
+    UserController --> AuthService
+    UserController --> Request
+    UserController --> Response
+}
+
+@enduml

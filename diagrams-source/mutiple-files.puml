@@ -1,0 +1,9 @@
+@startuml ALFARPG2
+
+!include syntax-cheatsheet.puml
+
+class Fruit {
+    +color: string
+}
+
+@enduml
