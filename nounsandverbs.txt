@@ -1,3 +1,5 @@
+Mettere favicon
+
 player moves
 player equips non-comsumables
 player has an inventory
