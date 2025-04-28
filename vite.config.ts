@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
     root: '.',
-    base: './',
+    base: '/alfarpg/',
     build: {
         outDir: 'dist', // Where to put the final build
         emptyOutDir: true, // Clean 'dist' before each build
