@@ -1,20 +1,20 @@
-├─ @esbuild/linux-x64@0.25.3
+├─ @esbuild/win32-x64@0.25.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/evanw/esbuild
-│  ├─ path: /var/www/alfarpg/node_modules/@esbuild/linux-x64
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@esbuild/linux-x64/README.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@esbuild\win32-x64
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@esbuild\win32-x64\README.md
 │  ├─ licenseText: # esbuild
 
-This is the Linux 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.
-│  ├─ name: @esbuild/linux-x64
+This is the Windows 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.
+│  ├─ name: @esbuild/win32-x64
 │  └─ version: 0.25.3
 ├─ @isaacs/cliui@8.0.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/yargs/cliui
 │  ├─ publisher: Ben Coe
 │  ├─ email: ben@npmjs.com
-│  ├─ path: /var/www/alfarpg/node_modules/@isaacs/cliui
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@isaacs/cliui/LICENSE.txt
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@isaacs\cliui
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@isaacs\cliui\LICENSE.txt
 │  ├─ licenseText: Copyright (c) 2015, Contributors
 
 Permission to use, copy, modify, and/or distribute this software
@@ -36,8 +36,8 @@ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/fs
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/@npmcli/fs
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@npmcli/fs/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@npmcli\fs
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@npmcli\fs\LICENSE.md
 │  ├─ licenseText: <!-- This file is automatically added by @npmcli/template-oss. Do not edit. -->
 
 ISC License
@@ -64,8 +64,8 @@ USE OR PERFORMANCE OF THIS SOFTWARE.
 ├─ @pkgjs/parseargs@0.11.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/pkgjs/parseargs
-│  ├─ path: /var/www/alfarpg/node_modules/@pkgjs/parseargs
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@pkgjs/parseargs/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@pkgjs\parseargs
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@pkgjs\parseargs\LICENSE
 │  ├─ licenseText: Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -269,33 +269,22 @@ USE OR PERFORMANCE OF THIS SOFTWARE.
    limitations under the License.
 │  ├─ name: @pkgjs/parseargs
 │  └─ version: 0.11.0
-├─ @rollup/rollup-linux-x64-gnu@4.40.0
+├─ @rollup/rollup-win32-x64-msvc@4.40.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/rollup/rollup
 │  ├─ publisher: Lukas Taegert-Atkinson
-│  ├─ path: /var/www/alfarpg/node_modules/@rollup/rollup-linux-x64-gnu
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@rollup/rollup-linux-x64-gnu/README.md
-│  ├─ licenseText: # `@rollup/rollup-linux-x64-gnu`
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@rollup\rollup-win32-x64-msvc
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@rollup\rollup-win32-x64-msvc\README.md
+│  ├─ licenseText: # `@rollup/rollup-win32-x64-msvc`
 
-This is the **x86_64-unknown-linux-gnu** binary for `rollup`
-│  ├─ name: @rollup/rollup-linux-x64-gnu
-│  └─ version: 4.40.0
-├─ @rollup/rollup-linux-x64-musl@4.40.0
-│  ├─ licenses: MIT
-│  ├─ repository: https://github.com/rollup/rollup
-│  ├─ publisher: Lukas Taegert-Atkinson
-│  ├─ path: /var/www/alfarpg/node_modules/@rollup/rollup-linux-x64-musl
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@rollup/rollup-linux-x64-musl/README.md
-│  ├─ licenseText: # `@rollup/rollup-linux-x64-musl`
-
-This is the **x86_64-unknown-linux-musl** binary for `rollup`
-│  ├─ name: @rollup/rollup-linux-x64-musl
+This is the **x86_64-pc-windows-msvc** binary for `rollup`
+│  ├─ name: @rollup/rollup-win32-x64-msvc
 │  └─ version: 4.40.0
 ├─ @types/estree@1.0.7
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
-│  ├─ path: /var/www/alfarpg/node_modules/@types/estree
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/@types/estree/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@types\estree
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\@types\estree\LICENSE
 │  ├─ licenseText: MIT License
 
     Copyright (c) Microsoft Corporation.
@@ -323,8 +312,8 @@ This is the **x86_64-unknown-linux-musl** binary for `rollup`
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/abbrev-js
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/abbrev
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/abbrev/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\abbrev
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\abbrev\LICENSE
 │  ├─ licenseText: This software is dual-licensed under the ISC and MIT licenses.
 You may use this software under EITHER of the following licenses.
 
@@ -379,8 +368,8 @@ OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ repository: https://github.com/chalk/ansi-regex
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/ansi-regex
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/ansi-regex/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\ansi-regex
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\ansi-regex\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -398,8 +387,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/ansi-regex
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/ansi-regex
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/ansi-regex/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ansi-regex
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ansi-regex\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -417,8 +406,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/ansi-styles
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/ansi-styles
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/ansi-styles/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ansi-styles
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ansi-styles\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -436,8 +425,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/ansi-styles
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/wrap-ansi/node_modules/ansi-styles
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/wrap-ansi/node_modules/ansi-styles/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi\node_modules\ansi-styles
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi\node_modules\ansi-styles\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -455,8 +444,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/sindresorhus/array-find-index
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/array-find-index
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/array-find-index/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\array-find-index
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\array-find-index\license
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -486,8 +475,8 @@ THE SOFTWARE.
 │  ├─ repository: https://github.com/juliangruber/balanced-match
 │  ├─ publisher: Julian Gruber
 │  ├─ email: mail@juliangruber.com
-│  ├─ path: /var/www/alfarpg/node_modules/balanced-match
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/balanced-match/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\balanced-match
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\balanced-match\LICENSE.md
 │  ├─ licenseText: (MIT)
 
 Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt;
@@ -517,8 +506,8 @@ SOFTWARE.
 │  ├─ repository: https://github.com/juliangruber/brace-expansion
 │  ├─ publisher: Julian Gruber
 │  ├─ email: mail@juliangruber.com
-│  ├─ path: /var/www/alfarpg/node_modules/brace-expansion
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/brace-expansion/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\brace-expansion
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\brace-expansion\LICENSE
 │  ├─ licenseText: MIT License
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
@@ -546,8 +535,8 @@ SOFTWARE.
 ├─ chalk@4.1.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/chalk/chalk
-│  ├─ path: /var/www/alfarpg/node_modules/chalk
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/chalk/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\chalk
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\chalk\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -565,8 +554,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/Qix-/color-convert
 │  ├─ publisher: Heather Arthur
 │  ├─ email: fayearthur@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/color-convert
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/color-convert/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\color-convert
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\color-convert\LICENSE
 │  ├─ licenseText: Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -595,8 +584,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ repository: https://github.com/colorjs/color-name
 │  ├─ publisher: DY
 │  ├─ email: dfcreative@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/color-name
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/color-name/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\color-name
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\color-name\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 Copyright (c) 2015 Dmitry Ivanov
 
@@ -612,8 +601,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/moxystudio/node-cross-spawn
 │  ├─ publisher: André Cruz
 │  ├─ email: andre@moxy.studio
-│  ├─ path: /var/www/alfarpg/node_modules/cross-spawn
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/cross-spawn/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\cross-spawn
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\cross-spawn\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2018 Made With MOXY Lda <hello@moxy.studio>
@@ -642,8 +631,8 @@ THE SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/debug-js/debug
 │  ├─ publisher: Josh Junon
-│  ├─ path: /var/www/alfarpg/node_modules/debug
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/debug/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\debug
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\debug\LICENSE
 │  ├─ licenseText: (The MIT License)
 
 Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
@@ -670,8 +659,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/komagata/eastasianwidth
 │  ├─ publisher: Masaki Komagata
-│  ├─ path: /var/www/alfarpg/node_modules/eastasianwidth
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/eastasianwidth/README.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\eastasianwidth
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\eastasianwidth\README.md
 │  ├─ licenseText: # East Asian Width
 
 Get [East Asian Width](http://www.unicode.org/reports/tr11/) from a character.
@@ -710,8 +699,8 @@ Original Code is [東アジアの文字幅 (East Asian Width) の判定 - 中途
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mathiasbynens/emoji-regex
 │  ├─ publisher: Mathias Bynens
-│  ├─ path: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/emoji-regex
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/emoji-regex/LICENSE-MIT.txt
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\emoji-regex
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\emoji-regex\LICENSE-MIT.txt
 │  ├─ licenseText: Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -739,8 +728,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/mathiasbynens/emoji-regex
 │  ├─ publisher: Mathias Bynens
-│  ├─ path: /var/www/alfarpg/node_modules/emoji-regex
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/emoji-regex/LICENSE-MIT.txt
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\emoji-regex
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\emoji-regex\LICENSE-MIT.txt
 │  ├─ licenseText: Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -767,8 +756,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ├─ esbuild@0.25.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/evanw/esbuild
-│  ├─ path: /var/www/alfarpg/node_modules/esbuild
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/esbuild/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\esbuild
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\esbuild\LICENSE.md
 │  ├─ licenseText: MIT License
 
 Copyright (c) 2020 Evan Wallace
@@ -797,8 +786,8 @@ SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/primus/eventemitter3
 │  ├─ publisher: Arnout Kazemier
-│  ├─ path: /var/www/alfarpg/node_modules/eventemitter3
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/eventemitter3/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\eventemitter3
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\eventemitter3\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2014 Arnout Kazemier
@@ -828,8 +817,8 @@ SOFTWARE.
 │  ├─ repository: https://github.com/thecodrr/fdir
 │  ├─ publisher: thecodrr
 │  ├─ email: thecodrr@protonmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/fdir
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/fdir/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\fdir
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\fdir\LICENSE
 │  ├─ licenseText: Copyright 2023 Abdullah Atta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -845,8 +834,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/tapjs/foreground-child
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/foreground-child
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/foreground-child/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\foreground-child
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\foreground-child\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2015-2023 Isaac Z. Schlueter and Contributors
@@ -870,8 +859,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/Raynos/function-bind
 │  ├─ publisher: Raynos
 │  ├─ email: raynos2@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/function-bind
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/function-bind/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\function-bind
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\function-bind\LICENSE
 │  ├─ licenseText: Copyright (c) 2013 Raynos.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -899,8 +888,8 @@ THE SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/node-glob
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/glob
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/glob/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\glob
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\glob\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2009-2023 Isaac Z. Schlueter and Contributors
@@ -922,8 +911,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ├─ graceful-fs@4.2.11
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/node-graceful-fs
-│  ├─ path: /var/www/alfarpg/node_modules/graceful-fs
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/graceful-fs/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\graceful-fs
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\graceful-fs\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors
@@ -947,8 +936,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/sindresorhus/has-flag
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/has-flag
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/has-flag/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\has-flag
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\has-flag\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -966,8 +955,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/inspect-js/hasOwn
 │  ├─ publisher: Jordan Harband
 │  ├─ email: ljharb@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/hasown
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/hasown/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\hasown
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\hasown\LICENSE
 │  ├─ licenseText: MIT License
 
 Copyright (c) Jordan Harband and contributors
@@ -996,8 +985,8 @@ SOFTWARE.
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/hosted-git-info
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/hosted-git-info
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/hosted-git-info/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\hosted-git-info
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\hosted-git-info\LICENSE
 │  ├─ licenseText: Copyright (c) 2015, Rebecca Turner
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -1019,8 +1008,8 @@ PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/inspect-js/is-core-module
 │  ├─ publisher: Jordan Harband
 │  ├─ email: ljharb@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/is-core-module
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/is-core-module/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\is-core-module
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\is-core-module\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2014 Dave Justice
@@ -1049,8 +1038,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/is-fullwidth-code-point
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/is-fullwidth-code-point/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\is-fullwidth-code-point
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\is-fullwidth-code-point\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -1068,8 +1057,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/isaacs/isexe
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/isexe
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/isexe/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\isexe
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\isexe\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -1093,8 +1082,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/jackspeak
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/jackspeak
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/jackspeak/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\jackspeak
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\jackspeak\LICENSE.md
 │  ├─ licenseText: # Blue Oak Model License
 
 Version 1.0.0
@@ -1156,8 +1145,8 @@ software or this license, under any kind of legal claim._**
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/npm/json-parse-even-better-errors
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/json-parse-even-better-errors
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/json-parse-even-better-errors/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\json-parse-even-better-errors
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\json-parse-even-better-errors\LICENSE.md
 │  ├─ licenseText: Copyright 2017 Kat Marchán
 Copyright npm, Inc.
 
@@ -1191,8 +1180,8 @@ distributed under the terms of the MIT license above.
 │  ├─ repository: https://github.com/RSeidelsohn/license-checker-rseidelsohn
 │  ├─ publisher: Roman Seidelsohn
 │  ├─ email: rseidelsohn@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/license-checker-rseidelsohn
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/license-checker-rseidelsohn/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\license-checker-rseidelsohn
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\license-checker-rseidelsohn\LICENSE
 │  ├─ licenseText: Copyright 2012 Yahoo Inc.
 
 Redistribution and use in source and binary forms, with or without
@@ -1224,8 +1213,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 │  ├─ repository: https://github.com/lodash/lodash
 │  ├─ publisher: John-David Dalton
 │  ├─ email: john.david.dalton@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/lodash.clonedeep
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/lodash.clonedeep/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\lodash.clonedeep
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\lodash.clonedeep\LICENSE
 │  ├─ licenseText: Copyright jQuery Foundation and other contributors <https://jquery.org/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
@@ -1281,8 +1270,8 @@ terms above.
 │  ├─ repository: https://github.com/isaacs/node-lru-cache
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/path-scurry/node_modules/lru-cache
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/path-scurry/node_modules/lru-cache/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-scurry\node_modules\lru-cache
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-scurry\node_modules\lru-cache\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors
@@ -1306,8 +1295,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/node-lru-cache
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/lru-cache
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/lru-cache/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\lru-cache
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\lru-cache\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors
@@ -1331,8 +1320,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/minimatch
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/minimatch
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/minimatch/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\minimatch
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\minimatch\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2011-2023 Isaac Z. Schlueter and Contributors
@@ -1356,8 +1345,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/minipass
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/minipass
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/minipass/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\minipass
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\minipass\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2017-2023 npm, Inc., Isaac Z. Schlueter, and Contributors
@@ -1379,8 +1368,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ├─ mkdirp@1.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/isaacs/node-mkdirp
-│  ├─ path: /var/www/alfarpg/node_modules/mkdirp
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/mkdirp/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\mkdirp
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\mkdirp\LICENSE
 │  ├─ licenseText: Copyright James Halliday (mail@substack.net) and Isaac Z. Schlueter (i@izs.me)
 
 This project is free software released under the MIT license:
@@ -1408,8 +1397,8 @@ THE SOFTWARE.
 ├─ ms@2.1.3
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/vercel/ms
-│  ├─ path: /var/www/alfarpg/node_modules/ms
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/ms/license.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ms
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\ms\license.md
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2020 Vercel, Inc.
@@ -1439,8 +1428,8 @@ SOFTWARE.
 │  ├─ repository: https://github.com/ai/nanoid
 │  ├─ publisher: Andrey Sitnik
 │  ├─ email: andrey@sitnik.ru
-│  ├─ path: /var/www/alfarpg/node_modules/nanoid
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/nanoid/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\nanoid
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\nanoid\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>
@@ -1468,8 +1457,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/nopt
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/nopt
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/nopt/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\nopt
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\nopt\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -1492,8 +1481,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/npm/normalize-package-data
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/normalize-package-data
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/normalize-package-data/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\normalize-package-data
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\normalize-package-data\LICENSE
 │  ├─ licenseText: This package contains code originally written by Isaac Z. Schlueter.
 Used with permission.
 
@@ -1516,8 +1505,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/npm-normalize-package-bin
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/npm-normalize-package-bin
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/npm-normalize-package-bin/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\npm-normalize-package-bin
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\npm-normalize-package-bin\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) npm, Inc.
@@ -1541,8 +1530,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/package-json-from-dist
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/package-json-from-dist
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/package-json-from-dist/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\package-json-from-dist
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\package-json-from-dist\LICENSE.md
 │  ├─ licenseText: All packages under `src/` are licensed according to the terms in
 their respective `LICENSE` or `LICENSE.md` files.
 
@@ -1613,8 +1602,8 @@ software or this license, under any kind of legal claim.***
 │  ├─ repository: https://github.com/sindresorhus/path-key
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/path-key
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/path-key/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-key
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-key\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -1632,8 +1621,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/isaacs/path-scurry
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/path-scurry
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/path-scurry/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-scurry
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\path-scurry\LICENSE.md
 │  ├─ licenseText: # Blue Oak Model License
 
 Version 1.0.0
@@ -1696,8 +1685,8 @@ software or this license, under any kind of legal claim.***
 │  ├─ repository: git+https://phaserjs@github.com/phaserjs/phaser
 │  ├─ publisher: Richard Davey
 │  ├─ email: rich@phaser.io
-│  ├─ path: /var/www/alfarpg/node_modules/phaser
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/phaser/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\phaser
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\phaser\LICENSE.md
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2024 Richard Davey, Phaser Studio Inc.
@@ -1725,8 +1714,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/alexeyraspopov/picocolors
 │  ├─ publisher: Alexey Raspopov
-│  ├─ path: /var/www/alfarpg/node_modules/picocolors
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/picocolors/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\picocolors
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\picocolors\LICENSE
 │  ├─ licenseText: ISC License
 
 Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov
@@ -1749,8 +1738,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/micromatch/picomatch
 │  ├─ publisher: Jon Schlinkert
-│  ├─ path: /var/www/alfarpg/node_modules/picomatch
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/picomatch/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\picomatch
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\picomatch\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2017-present, Jon Schlinkert.
@@ -1780,8 +1769,8 @@ THE SOFTWARE.
 │  ├─ repository: https://github.com/postcss/postcss
 │  ├─ publisher: Andrey Sitnik
 │  ├─ email: andrey@sitnik.ru
-│  ├─ path: /var/www/alfarpg/node_modules/postcss
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/postcss/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\postcss
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\postcss\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
@@ -1810,8 +1799,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ repository: https://github.com/Semigradsky/read-installed
 │  ├─ publisher: Dmitry Semigradsky
 │  ├─ email: semigradskyd@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/read-installed-packages
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/read-installed-packages/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\read-installed-packages
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\read-installed-packages\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter, Dmitry Semigradsky
@@ -1834,8 +1823,8 @@ PERFORMANCE OF THIS SOFTWARE.
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/read-package-json
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/read-package-json
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/read-package-json/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\read-package-json
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\read-package-json\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter
@@ -1858,8 +1847,8 @@ PERFORMANCE OF THIS SOFTWARE.
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/rollup/rollup
 │  ├─ publisher: Rich Harris
-│  ├─ path: /var/www/alfarpg/node_modules/rollup
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/rollup/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\rollup
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\rollup\LICENSE.md
 │  ├─ licenseText: # Rollup core license
 Rollup is released under the MIT license:
 
@@ -2548,8 +2537,8 @@ Repository: https://github.com/yargs/yargs-parser.git
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/node-semver
 │  ├─ publisher: GitHub Inc.
-│  ├─ path: /var/www/alfarpg/node_modules/semver
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/semver/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\semver
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\semver\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -2573,8 +2562,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/kevva/shebang-command
 │  ├─ publisher: Kevin Mårtensson
 │  ├─ email: kevinmartensson@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/shebang-command
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/shebang-command/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\shebang-command
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\shebang-command\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)
@@ -2592,8 +2581,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/sindresorhus/shebang-regex
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/shebang-regex
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/shebang-regex/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\shebang-regex
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\shebang-regex\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -2611,8 +2600,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/tapjs/signal-exit
 │  ├─ publisher: Ben Coe
 │  ├─ email: ben@npmjs.com
-│  ├─ path: /var/www/alfarpg/node_modules/signal-exit
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/signal-exit/LICENSE.txt
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\signal-exit
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\signal-exit\LICENSE.txt
 │  ├─ licenseText: The ISC License
 
 Copyright (c) 2015-2023 Benjamin Coe, Isaac Z. Schlueter, and Contributors
@@ -2637,8 +2626,8 @@ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/isaacs/slide-flow-control
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/slide
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/slide/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\slide
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\slide\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter
@@ -2662,8 +2651,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/7rulnik/source-map-js
 │  ├─ publisher: Valentin 7rulnik Semirulnik
 │  ├─ email: v7rulnik@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/source-map-js
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/source-map-js/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\source-map-js
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\source-map-js\LICENSE
 │  ├─ licenseText: Copyright (c) 2009-2011, Mozilla Foundation and contributors
 All rights reserved.
 
@@ -2698,8 +2687,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 │  ├─ repository: https://github.com/kemitchell/spdx-compare.js
 │  ├─ publisher: Kyle E. Mitchell
 │  ├─ email: kyle@kemitchell.com
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-compare
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-compare/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-compare
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-compare\LICENSE.md
 │  ├─ licenseText: The MIT License
 
 Copyright (c) 2015 Kyle E. Mitchell
@@ -2715,8 +2704,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ├─ spdx-correct@3.2.0
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/jslicense/spdx-correct.js
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-correct
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-correct/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-correct
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-correct\LICENSE
 │  ├─ licenseText: Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -2924,8 +2913,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ licenses: CC-BY-3.0
 │  ├─ repository: https://github.com/kemitchell/spdx-exceptions.json
 │  ├─ publisher: The Linux Foundation
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-exceptions
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-exceptions/README.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-exceptions
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-exceptions\README.md
 │  ├─ licenseText: The package exports an array of strings. Each string is an identifier
 for a license exception under the [Software Package Data Exchange
 (SPDX)][SPDX] software license metadata standard.
@@ -2969,8 +2958,8 @@ discuss the following Supreme Court decisions with their attorneys:
 │  ├─ repository: https://github.com/jslicense/spdx-expression-parse.js
 │  ├─ publisher: Kyle E. Mitchell
 │  ├─ email: kyle@kemitchell.com
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-expression-parse
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-expression-parse/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-expression-parse
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-expression-parse\LICENSE
 │  ├─ licenseText: The MIT License
 
 Copyright (c) 2015 Kyle E. Mitchell & other authors listed in AUTHORS
@@ -3000,8 +2989,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ licenses: CC0-1.0
 │  ├─ repository: https://github.com/jslicense/spdx-license-ids
 │  ├─ publisher: Shinnosuke Watanabe
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-license-ids
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-license-ids/README.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-license-ids
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-license-ids\README.md
 │  ├─ licenseText: # spdx-license-ids
 
 [![npm version](https://img.shields.io/npm/v/spdx-license-ids.svg)](https://www.npmjs.com/package/spdx-license-ids)
@@ -3059,8 +3048,8 @@ deprecatedIds.includes('GPL-3.0'); //=> true
 │  ├─ licenses: (MIT AND CC-BY-3.0)
 │  ├─ repository: https://github.com/kemitchell/spdx-ranges.js
 │  ├─ publisher: The Linux Foundation
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-ranges
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-ranges/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-ranges
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-ranges\LICENSE.md
 │  ├─ licenseText: The MIT License
 
 Copyright (c) 2015 Kyle E. Mitchell
@@ -3078,8 +3067,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/kemitchell/spdx-satisfies.js
 │  ├─ publisher: Kyle E. Mitchell
 │  ├─ email: kyle@kemitchell.com
-│  ├─ path: /var/www/alfarpg/node_modules/spdx-satisfies
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/spdx-satisfies/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-satisfies
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\spdx-satisfies\LICENSE
 │  ├─ licenseText: The MIT License
 
 Copyright (c) spdx-satisfies.js contributors
@@ -3109,8 +3098,8 @@ OTHER DEALINGS IN THE SOFTWARE.
 │  ├─ repository: https://github.com/sindresorhus/string-width
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/string-width-cjs
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/string-width-cjs/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -3128,8 +3117,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/sindresorhus/string-width
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/string-width
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/string-width/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -3147,8 +3136,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/strip-ansi
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/strip-ansi
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/string-width-cjs/node_modules/strip-ansi/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\strip-ansi
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\string-width-cjs\node_modules\strip-ansi\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -3166,8 +3155,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/strip-ansi
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/strip-ansi
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/strip-ansi/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\strip-ansi
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\strip-ansi\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -3185,8 +3174,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ repository: https://github.com/chalk/supports-color
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/supports-color
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/supports-color/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\supports-color
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\supports-color\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -3203,8 +3192,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/SuperchupuDev/tinyglobby
 │  ├─ publisher: Superchupu
-│  ├─ path: /var/www/alfarpg/node_modules/tinyglobby
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/tinyglobby/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\tinyglobby
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\tinyglobby\LICENSE
 │  ├─ licenseText: MIT License
 
 Copyright (c) 2024 Madeline Gurriarán
@@ -3234,8 +3223,8 @@ SOFTWARE.
 │  ├─ repository: https://github.com/notatestuser/treeify
 │  ├─ publisher: Luke Plaster
 │  ├─ email: notatestuser@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/treeify
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/treeify/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\treeify
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\treeify\LICENSE
 │  ├─ licenseText: The MIT License (MIT)
 
 Copyright (c) 2012-2018 Luke Plaster <notatestuser@gmail.com>
@@ -3264,8 +3253,8 @@ SOFTWARE.
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/microsoft/TypeScript
 │  ├─ publisher: Microsoft Corp.
-│  ├─ path: /var/www/alfarpg/node_modules/typescript
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/typescript/LICENSE.txt
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\typescript
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\typescript\LICENSE.txt
 │  ├─ licenseText: Apache License
 
 Version 2.0, January 2004
@@ -3328,8 +3317,8 @@ END OF TERMS AND CONDITIONS
 │  ├─ repository: https://github.com/kemitchell/validate-npm-package-license.js
 │  ├─ publisher: Kyle E. Mitchell
 │  ├─ email: kyle@kemitchell.com
-│  ├─ path: /var/www/alfarpg/node_modules/validate-npm-package-license
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/validate-npm-package-license/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\validate-npm-package-license
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\validate-npm-package-license\LICENSE
 │  ├─ licenseText: Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -3537,8 +3526,8 @@ END OF TERMS AND CONDITIONS
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/vitejs/vite
 │  ├─ publisher: Evan You
-│  ├─ path: /var/www/alfarpg/node_modules/vite
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/vite/LICENSE.md
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\vite
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\vite\LICENSE.md
 │  ├─ licenseText: # Vite core license
 Vite is released under the MIT license:
 
@@ -5953,8 +5942,8 @@ Repository: git+https://github.com/websockets/ws.git
 │  ├─ repository: https://github.com/isaacs/node-which
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
-│  ├─ path: /var/www/alfarpg/node_modules/which
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/which/LICENSE
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\which
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\which\LICENSE
 │  ├─ licenseText: The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
@@ -5978,8 +5967,8 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 │  ├─ repository: https://github.com/chalk/wrap-ansi
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
-│  ├─ path: /var/www/alfarpg/node_modules/wrap-ansi-cjs
-│  ├─ licenseFile: /var/www/alfarpg/node_modules/wrap-ansi-cjs/license
+│  ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi-cjs
+│  ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi-cjs\license
 │  ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
@@ -5997,8 +5986,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
    ├─ repository: https://github.com/chalk/wrap-ansi
    ├─ publisher: Sindre Sorhus
    ├─ email: sindresorhus@gmail.com
-   ├─ path: /var/www/alfarpg/node_modules/wrap-ansi
-   ├─ licenseFile: /var/www/alfarpg/node_modules/wrap-ansi/license
+   ├─ path: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi
+   ├─ licenseFile: C:\Users\leand\visual studio code programs\ALFArpg\node_modules\wrap-ansi\license
    ├─ licenseText: MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
