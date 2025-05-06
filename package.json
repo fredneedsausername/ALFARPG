@@ -1,4 +1,12 @@
 {
+    "version": "0.0.1",
+    "name": "alfarpg",
+    "description": "An easy-going RPG-like game to relax after a hard day's work",
+    "author": "Federico Veronesi <fred.ver06@gmail.com>",
+    "contributors": [
+        "Artist: Ambra Pirno",
+        "Programmer: Leandro Fiorini"
+    ],
     "devDependencies": {
         "license-checker-rseidelsohn": "^4.4.2",
         "typescript": "^5.8.3",
@@ -13,5 +21,4 @@
         "dev": "npx vite",
         "preview": "npm run build && npx vite preview"
     }
-
 }
