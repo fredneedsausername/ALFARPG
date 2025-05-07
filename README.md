@@ -1,3 +1,7 @@
+<p align = "center">
+  <img src="logo.png" alt="The image of the logo" style="width: 35vw; height: 35vw;">
+</p>
+
 > [!IMPORTANT]
 > ALFARPG is, ironically, still in alpha. We are looking forward to your feedback!
 
