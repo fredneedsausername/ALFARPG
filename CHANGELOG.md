@@ -85,8 +85,10 @@ This changelog follows a custom formatting style inspired by [Keep a Changelog](
 ### Added
 
 - Monster sprites spawn at fixed spots on the terrain
+    - When an enemy dies, after a few seconds it respawns on the same spawning spot
 - Attack system
-    - Player has attack attribute
+    - Player has sword
+        - sword has attack attribute that depends on its level
     - Monsters have health
     - Player can hit configurable key to attack, default Left Click
         - Cooldown until possibility to attack again

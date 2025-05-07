@@ -1,0 +1,69 @@
+@startuml Version 0.2.0
+
+class Player {
+    # sword: Sword
+    + Player(level: number) 
+    + get sword(): Sword
+    + attack(): void
+}
+
+note left of Player::Player
+    Initializes a Sword from level
+end note
+
+note left of Player::attack
+    Attacks all enemies in a radius, has cooldown
+end note
+
+class Sword {
+    # attack : number
+    # level: number
+    + Sword(level:number)
+    + upgrade(): void
+}
+
+note right of Sword::Sword
+    Caches attack
+end note
+
+note right of Sword::attack
+    Cached value derived from level
+end note
+
+note right of Sword::upgrade
+    Caches attack
+end note
+
+class Monster {
+    # health: number
+    # type: string
+    # die(): number
+    + get type(): string
+    + takeDamage(damage: number)
+}
+
+note right of Monster::die
+    Returns dropped money
+end note
+
+class MonsterManager {
+    TO BE IMPLEMENTED
+    ENEMIES SPAWN AT SPECIFIC LOCATIONS
+    DEAD ENEMIES RESPAWN AT THEIR ORIGINAL SPAWNING SPOT
+}
+
+@enduml
+
+
+
+
+- Monster sprites spawn at fixed spots on the terrain
+- Attack system
+    - Player has sword
+        - sword has attack attribute that depends on its level
+    - Monsters have health
+    - Player can hit configurable key to attack, default Left Click
+        - Cooldown until possibility to attack again
+        - Attack area is circle around the player
+        - If monster is in attack area when player attacks it takes damage equal to the attack of the player
+            - When monster health goes to zero it disappears
