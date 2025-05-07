@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src="logo.png" alt="The image of the logo" style="width: 35vw; height: 35vw;">
+  <img src="logo.png" alt="The image of the logo" style="width: auto">
 </p>
 
 > [!IMPORTANT]
