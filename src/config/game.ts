@@ -1,14 +1,14 @@
 import Phaser from 'phaser'
 
-export class ALFARPG extends Phaser.Game {
+export default class ALFARPG extends Phaser.Game {
     
-    constructor(callbackFunctions: Phaser.Types.Core.CallbacksConfig,
+    constructor(callbackFunctions?: Phaser.Types.Core.CallbacksConfig,
         ...scenes: Phaser.Types.Scenes.SettingsConfig[]) {
 
         const gameConfig: Phaser.Types.Core.GameConfig = {
             "disableContextMenu": true,
             scene: scenes,
-            callbacks: callbackFunctions,
+            callbacks: callbackFunctions || {},
             physics: {
                 default: "arcade",
                 arcade: {
