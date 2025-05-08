@@ -1,4 +1,4 @@
-class Player extends Phaser.Physics.Sprite{
+class Player extends Phaser.Physics.Arcade.Sprite{
 
     protected initMovement(): void
     {
