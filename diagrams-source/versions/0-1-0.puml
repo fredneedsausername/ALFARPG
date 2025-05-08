@@ -2,7 +2,6 @@
 
 class Player extends Phaser.Physics.Arcade.Sprite {
     # initMovement(): void
-    + setCollideWorldBounds(): void
     + Player()
 }
 
