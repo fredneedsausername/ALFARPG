@@ -13,6 +13,6 @@ end note
 class Phaser.GameObjects.Image <<terrain image>>
 class Phaser.Cameras.Scene2D.Camera
 
-Phaser.Cameras.Scene2D.Camera --> Player: follows
+Phaser.Cameras.Scene2D.Camera ..> Player: startFollow()
 
 @enduml
