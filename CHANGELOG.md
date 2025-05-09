@@ -90,7 +90,7 @@ This changelog follows a custom formatting style inspired by [Keep a Changelog](
     - Player has sword
         - sword has attack attribute that depends on its level
     - Monsters have health
-    - Player can hit configurable key to attack, default Left Click
+    - Player can attack with enter key
         - Cooldown until possibility to attack again
         - Attack area is circle around the player
         - If monster is in attack area when player attacks it takes damage equal to the attack of the player

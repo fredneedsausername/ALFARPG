@@ -2,27 +2,32 @@
 
 class Player {
     # sword: Sword
-    + Player(level: number) 
+    # initAttack(): void
+    + constructor(level: number) 
     + get sword(): Sword
     + attack(): void
 }
 
-note left of Player::Player
+note left of Player::constructor
     Initializes a Sword from level
+    and initializes attack area and
+    mechanism
 end note
 
 note left of Player::attack
     Attacks all enemies in a radius, has cooldown
+    cooldown implemented with callback function after
+    timer that toggles ability to attack again
 end note
 
 class Sword {
     # attack : number
     # level: number
-    + Sword(level:number)
+    + constructor(level:number)
     + upgrade(): void
 }
 
-note right of Sword::Sword
+note right of Sword::constructor
     Caches attack
 end note
 
@@ -47,9 +52,7 @@ note right of Monster::die
 end note
 
 class MonsterManager {
-    TO BE IMPLEMENTED
-    ENEMIES SPAWN AT SPECIFIC LOCATIONS
-    DEAD ENEMIES RESPAWN AT THEIR ORIGINAL SPAWNING SPOT
+    + addSpawnPoints(...points: { x: number; y: number }[])
 }
 
 @enduml
