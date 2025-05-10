@@ -46,41 +46,55 @@ This changelog follows a custom formatting style inspired by [Keep a Changelog](
 
 ### Added
 
-- Terrain image bigger than screen
-- Camera always fixes player sprite at exact center of the screen
-- Player moves with configurable keys, default WASD
-- Player cannot go over terrain's bounds
-- Monster sprites spawn at fixed spots on the terrain
-    - When an enemy dies, after a few seconds it respawns on the same spawning spot
-- Attack system
-    - Player has sword
-        - sword has attack attribute that depends on its level
-    - Monsters have health
-    - Player can attack with enter key
-        - Cooldown until possibility to attack again
-        - Attack area is circle around the player
-        - If monster is in attack area when player attacks it takes damage equal to the attack of the player
-            - When monster health goes to zero it disappears
-- When moster takes damage it gets tinted red for a fraction of a second, then returns normal
-- A health bar appears above monster when it loses health for the first time
-    - Health bar is bound to the monster and moves with it
-- Monsters have a detection area that is a big circle around them
-    - When player enters the detection area the enemy starts following them indefinitely
-- Monsters' sprites flip following the direction they're moving in
-- Monster attack system
-    - Player armor and health system
-        - health
-            - player has fixed max amount of health, and minimum is zero
-                - when health goes to zero player dies
-                    - primitive player death system
-                        - all enemies stop following the player
-                        - player stops all animations
-                        - player teleports at spawn
-                        - health gets fully regenerated
-            - player has fixed regeneration
-                - regeneration amount determines how much health is regenerated every second
-        - armor
-    - Monsters have an attack area that is a circle around them
-        - When a player enters the attack area the monster attacks them
-            - Monsters have all the same attack cooldown
-            - The damage dealt to the player is the monster's damage minus the player's armor
+World and Camera
+    - Terrain image is larger than the screen
+    - Camera system
+        - Always centers on the player
+
+Player Controls and Movement
+    - Player movement
+        - Controlled by configurable keys (default: WASD)
+        - Cannot move outside terrain bounds
+
+Spawning System
+    - Monsters spawn at fixed spots
+        - When killed, respawn at the same spot after a delay
+
+Combat System
+    - Player Combat
+        - Player uses a sword
+            - Has an attack value based on its level
+        - Attacking
+            - Press Enter to attack
+            - Has an attack cooldown
+            - Attack area is a circle around the player
+            - If a monster is in range, it takes damage equal to the player's attack value
+    - Monster Combat
+        - Monsters have health
+        - Turn red briefly when damaged
+        - Disappear when health reaches zero
+        - Display a health bar after first being damaged
+            - The bar is bound to and moves with the monster
+    - Monster AI
+        - Detection area is a large circle
+            - When player enters, the monster follows indefinitely
+        - Sprite flips based on movement direction
+    - Monster Attacks
+        - Monsters have an attack area (circular)
+            - When player is in range, monster attacks
+                - Shared attack cooldown among all monsters
+                - Damage dealt = monster's attack - player's armor
+
+Player Health and Defense System
+    - Health
+        - Max value is fixed
+        - When health reaches zero
+            - Player dies
+                - All enemies stop following
+                - Player animations stop
+                - Player is teleported to spawn
+                - Health is fully restored
+        - Regenerates health at a fixed rate (per second)
+    - Armor
+        - Provides defense
+        - Incoming damage is reduced by defense value

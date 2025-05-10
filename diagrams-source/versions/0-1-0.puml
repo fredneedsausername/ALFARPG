@@ -1,34 +1,110 @@
 @startuml Version 0.1.0
 
-class Phaser.GameObjects.Image <<terrain image>>
+' Generics get displayed clearly
+skinparam genericDisplay old
+
+class Phaser.GameObjects.Image {
+    Terrain image
+}
 class Phaser.Cameras.Scene2D.Camera
 
-Phaser.Cameras.Scene2D.Camera ..o Player: startFollow()
+Phaser.Cameras.Scene2D.Camera o-- src.objects.Player: startFollow()
 
 package src {
-
+    package utils {
+        package abstracts {
+            abstract class UpgradeableValue<T> {
+                # level = 1: number
+                # value: T
+                + abstract upgrade(): void
+                + get level(): number
+                + constructor(startingLevel: number, startingValue: number)
+            }
+        }
+        package helpers {
+            class Sword <<T = number>> extends .src.utils.abstracts.UpgradeableValue {
+                + get attack(): number
+                + upgrade() <<override>>
+            }
+            class Armor <<T = number>> extends .src.utils.abstracts.UpgradeableValue {
+                + get defense(): number
+                + upgrade() <<override>>
+            }
+        }
+    }
     package objects {
-
         class Player extends .Phaser.Physics.Arcade.Sprite {
+            Cannot go over world's bounds
+            ATTRIBUTES FOR ATTACK AND HEALTH AND MOVEMENT SYSTEMS
             # initAttack()
             # initMovement()
+            # initHealth()
             + constructor() 
             + attack()
         }
-
         class Monster extends .Phaser.Physics.Arcade.Sprite {
             # health: number
             + get type()
             + takeDamage(damage: number)
         }
-
     }
-
     class managers.MonsterManager {
         + addSpawnPoints(...points: { x: number; y: number }[])
         AAAAA TO DO THIS
     }
-
 }
 
 @enduml
+
+World and Camera
+    - Terrain image is larger than the screen
+    - Camera system
+        - Always centers on the player
+
+Player Controls and Movement
+    - Player movement
+        - Controlled by configurable keys (default: WASD)
+        - Cannot move outside terrain bounds
+
+Spawning System
+    - Monsters spawn at fixed spots
+        - When killed, respawn at the same spot after a delay
+
+Combat System
+    - Player Combat
+        - Player uses a sword
+            - Has an attack value based on its level
+        - Attacking
+            - Press Enter to attack
+            - Has an attack cooldown
+            - Attack area is a circle around the player
+            - If a monster is in range, it takes damage equal to the player's attack value
+    - Monster Combat
+        - Monsters have health
+        - Turn red briefly when damaged
+        - Disappear when health reaches zero
+        - Display a health bar after first being damaged
+            - The bar is bound to and moves with the monster
+    - Monster AI
+        - Detection area is a large circle
+            - When player enters, the monster follows indefinitely
+        - Sprite flips based on movement direction
+    - Monster Attacks
+        - Monsters have an attack area (circular)
+            - When player is in range, monster attacks
+                - Shared attack cooldown among all monsters
+                - Damage dealt = monster's attack - player's armor
+
+Player Health and Defense System
+    - Health
+        - Max value is fixed
+        - When health reaches zero
+            - Player dies
+                - All enemies stop following
+                - Player animations stop
+                - Player is teleported to spawn
+                - Health is fully restored
+        - Regenerates health at a fixed rate (per second)
+    - Armor
+        - Provides defense
+        - Incoming damage is reduced by defense value
