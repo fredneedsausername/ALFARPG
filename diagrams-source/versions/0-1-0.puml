@@ -1,17 +1,34 @@
 @startuml Version 0.1.0
 
-class Player extends Phaser.Physics.Arcade.Sprite {
-    # initMovement(): void
-    + Player()
-}
-
-note left of Player::Player
-    Calls initMovement
-end note
-
 class Phaser.GameObjects.Image <<terrain image>>
 class Phaser.Cameras.Scene2D.Camera
 
-Phaser.Cameras.Scene2D.Camera ..> Player: startFollow()
+Phaser.Cameras.Scene2D.Camera ..o Player: startFollow()
+
+package src {
+
+    package objects {
+
+        class Player extends .Phaser.Physics.Arcade.Sprite {
+            # initAttack()
+            # initMovement()
+            + constructor() 
+            + attack()
+        }
+
+        class Monster extends .Phaser.Physics.Arcade.Sprite {
+            # health: number
+            + get type()
+            + takeDamage(damage: number)
+        }
+
+    }
+
+    class managers.MonsterManager {
+        + addSpawnPoints(...points: { x: number; y: number }[])
+        AAAAA TO DO THIS
+    }
+
+}
 
 @enduml

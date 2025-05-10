@@ -42,10 +42,31 @@ This changelog follows a custom formatting style inspired by [Keep a Changelog](
 
 # VERSIONS
 
-## [0.3.0] - Planned
+## [0.1.0] - Planned
 
 ### Added
 
+- Terrain image bigger than screen
+- Camera always fixes player sprite at exact center of the screen
+- Player moves with configurable keys, default WASD
+- Player cannot go over terrain's bounds
+- Monster sprites spawn at fixed spots on the terrain
+    - When an enemy dies, after a few seconds it respawns on the same spawning spot
+- Attack system
+    - Player has sword
+        - sword has attack attribute that depends on its level
+    - Monsters have health
+    - Player can attack with enter key
+        - Cooldown until possibility to attack again
+        - Attack area is circle around the player
+        - If monster is in attack area when player attacks it takes damage equal to the attack of the player
+            - When monster health goes to zero it disappears
+- When moster takes damage it gets tinted red for a fraction of a second, then returns normal
+- A health bar appears above monster when it loses health for the first time
+    - Health bar is bound to the monster and moves with it
+- Monsters have a detection area that is a big circle around them
+    - When player enters the detection area the enemy starts following them indefinitely
+- Monsters' sprites flip following the direction they're moving in
 - Monster attack system
     - Player armor and health system
         - health
@@ -63,44 +84,3 @@ This changelog follows a custom formatting style inspired by [Keep a Changelog](
         - When a player enters the attack area the monster attacks them
             - Monsters have all the same attack cooldown
             - The damage dealt to the player is the monster's damage minus the player's armor
-
-## [0.2.2] - Planned
-
-### Added
-
-- Monsters have a detection area that is a big circle around them
-    - When player enters the detection area the enemy starts following them indefinitely
-- Monsters' sprites flip following the direction they're moving in
-
-## [0.2.1] - Planned
-
-### Added
-
-- When moster takes damage it gets tinted red for a fraction of a second, then returns normal
-- A health bar appears above monster when it loses health for the first time
-    - Health bar is bound to the monster and moves with it
-
-## [0.2.0] - Planned
-
-### Added
-
-- Monster sprites spawn at fixed spots on the terrain
-    - When an enemy dies, after a few seconds it respawns on the same spawning spot
-- Attack system
-    - Player has sword
-        - sword has attack attribute that depends on its level
-    - Monsters have health
-    - Player can attack with enter key
-        - Cooldown until possibility to attack again
-        - Attack area is circle around the player
-        - If monster is in attack area when player attacks it takes damage equal to the attack of the player
-            - When monster health goes to zero it disappears
-
-## [0.1.0] - Planned
-
-### Added
-
-- Terrain image bigger than screen
-- Camera always fixes player sprite at exact center of the screen
-- Player moves with configurable keys, default WASD
-- Player cannot go over terrain's bounds
