@@ -1,12 +1,10 @@
-class Player extends Phaser.Physics.Arcade.Sprite{
+class Player extends Phaser.Physics.Arcade.Sprite {
 
-    protected initMovement(): void
-    {
+    protected initMovement(): void {
         this.setCollideWorldBounds(true);
     }
     
-    public Player()
-    {
+    public Player() {
 
     }
 
