@@ -6,7 +6,7 @@ export default class ALFARPG extends Phaser.Game {
         ...scenes: Phaser.Types.Scenes.SettingsConfig[]) {
 
         const gameConfig: Phaser.Types.Core.GameConfig = {
-            "disableContextMenu": true,
+            type: Phaser.WEBGL,
             scene: scenes,
             callbacks: callbackFunctions || {},
             physics: {
