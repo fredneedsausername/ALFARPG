@@ -7,30 +7,29 @@ export default class LevelScene extends Phaser.Scene {
         })
     }
 
-    // An image in images/levels/level-1/soulings/souling1.png will have a key in the loader of:
-    // levels-level-1-soulings-souling1
     private loadImages() {
         
-        // Use Vite's `import.meta.glob()` to scan all PNG files inside /images/ and its subfolders.
-        // The pattern '**/*.png' means: "match any .png file in this folder or any subfolder"
-        // The { as: 'url' } option tells Vite to give us the final URL to the image.
-        const images = import.meta.glob('/images/**/*.png', { as: 'url' });
+        // Get all "resource" entries from the Performance API
+        const allResources = performance.getEntriesByType('resource');
 
-        for (const path in images) {
-            
-            const loader = images[path]; // Loader returns a Promise that resolves to the path of the image
-            if (!loader) continue; // Otherwise TypeScript laments that images[path] could be undefined
+        // Filter only entries that are PerformanceResourceTiming
+        const typedResources: PerformanceResourceTiming[] = allResources.filter(
+        (entry): entry is PerformanceResourceTiming =>
+            'initiatorType' in entry
+        );
 
-            const name = path
-            .replace('/images/', '')  // Remove the base folder prefix
-            .replace('.png', '')      // Remove the file extension
-            .replace(/\//g, '-');     // Replace any remaining slashes with dashes (so folders become part of the key)
+        // Further filter to only images from the /images/ folder ending in .png
+        const imageResources = typedResources.filter(entry =>
+        entry.initiatorType === 'img' &&
+        entry.name.includes('/images/') &&
+        entry.name.endsWith('.png')
+        );
 
-            loader().then(url => {
-                this.load.image(name, url);
-            });
+        // Extract URLs
+        const imageUrls = imageResources.map(entry => entry.name);
 
-        }
+        // Log result
+        console.log('✅ Loaded images from /images/:', imageUrls);
     }
 
     preload() {
