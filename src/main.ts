@@ -1,4 +1,4 @@
-import ALFARPG from './config/game'
+import ALFARPG from '@/config/game'
 
 const game = new ALFARPG(
     5

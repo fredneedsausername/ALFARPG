@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
     root: '.',
@@ -13,4 +14,9 @@ export default defineConfig({
     preview: {
         open: true, // Auto-open browser when running npm run preview
     },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'src')
+        }
+    }
 })

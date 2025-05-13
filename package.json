@@ -8,6 +8,7 @@
         "Programmer: Leandro Fiorini"
     ],
     "devDependencies": {
+        "@types/node": "^22.15.17",
         "license-checker-rseidelsohn": "^4.4.2",
         "typescript": "^5.8.3",
         "vite": "^6.3.3"
