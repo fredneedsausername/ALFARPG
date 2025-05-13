@@ -1,14 +1,19 @@
 import Phaser from 'phaser'
+import LevelScene from '../scenes/levelscene'
 
 export default class ALFARPG extends Phaser.Game {
     
-    constructor(callbackFunctions?: Phaser.Types.Core.CallbacksConfig,
-        ...scenes: Phaser.Types.Scenes.SettingsConfig[]) {
+    constructor(levelsCount: number, ...scenes: Phaser.Scene[]) {
+
+        const levels: LevelScene[] = []
+        
+        for(let i = 1; i < levelsCount + 1; i++) {
+            levels.push(new LevelScene('level-' + i))
+        }
 
         const gameConfig: Phaser.Types.Core.GameConfig = {
             type: Phaser.WEBGL,
-            scene: scenes,
-            callbacks: callbackFunctions || {},
+            scene: [...scenes, ...levels], // Scenes before levels so that the main scene can come before the first level
             physics: {
                 default: "arcade",
                 arcade: {
