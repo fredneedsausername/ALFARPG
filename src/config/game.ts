@@ -29,7 +29,7 @@ export default class ALFARPG extends Phaser.Game {
             },
             loader: {
                 imageLoadType: "HTMLImageElement",
-                path: "/assets/"
+                path: "assets/"
             },
             scale: {
                 mode: Phaser.Scale.FIT,
