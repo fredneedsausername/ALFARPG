@@ -1,5 +1,5 @@
 import Phaser from 'phaser'
-import LevelScene from '@/scenes/levelscene'
+import LevelScene from '@/scenes/level-scene'
 
 export default class ALFARPG extends Phaser.Game {
     

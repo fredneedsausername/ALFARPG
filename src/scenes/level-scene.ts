@@ -5,11 +5,12 @@ export default class LevelScene extends Phaser.Scene {
 
     constructor(sceneKey: string) {
         super({
-            'key': sceneKey, // you get an error because this overrides the default constructor
-            'visible': false,
-        })
-        this.loadBaseURL = 'images/levels/' + this.scene.key + '/'
+            key: sceneKey,
+            visible: false  
+        });
 
+        this.loadBaseURL = 'images/levels/' + sceneKey + '/'
+        
         this.loadKeysAndPaths = [
             ['terrain', 'terrain'],
         ]
@@ -22,7 +23,8 @@ export default class LevelScene extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(0, 0, 'terrain')
+        this.add.image(0, 0, 'level-1-terrain')
+        .scale = 20
     }
 
 }
